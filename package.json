@@ -1,0 +1,20 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Cypress cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cypress:runner": "cypress open"
+  },
+  "author": "cucumber",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.4",
+    "cypress": "^10.8.0",
+    "esbuild": "^0.15.8",
+    "playwright-webkit": "^1.25.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.0"
+  }
+}
